@@ -3,7 +3,7 @@ import psycopg2
 
 #Conexao com o banco de dados
 try:
-    conn = psycopg2.connect("dbname = 'smartmob' port = '5432'  user= 'user' password = 'user' host='localhost'")
+    conn = psycopg2.connect("dbname = 'smartmob' port = ''  user= '' password = '' host='localhost'")
 except:
     print 'Erro'
 cur = conn.cursor()
